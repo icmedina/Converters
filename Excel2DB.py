@@ -46,8 +46,8 @@ def PopulateTables(ExcelFile, TableName, cursor):
 # =============================================================================
 # Main
 # =============================================================================
-ExcelFile = 'UniqueCompDB_2022-03-29.csv'; # SheetName = 'UniqueCompDB_2022-03-29'
-TableName = "company"; dbName = 'B2BVector_2022-03-30'
+ExcelFile = 'in.csv'; # SheetName = ''
+TableName = "table1"; dbName = 'database'
 
 connection = sqlite3.connect(dbName + '.sqlite')    # Create and Connect to the database
 
